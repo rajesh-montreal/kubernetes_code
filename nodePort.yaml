@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: devops-svc
+  labels:
+    app: devops-web
+spec:
+  selector:
+    app: devops-web
+
+  type: NodePort
+  ports:
+  - nodePort: 31500
+    port: 8080
+    targetPort: 8080

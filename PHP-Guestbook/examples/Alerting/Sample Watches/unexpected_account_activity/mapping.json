@@ -1,0 +1,15 @@
+{
+  "mappings": {
+      "properties": {
+        "event_type": {
+          "type": "keyword"
+        },
+         "user": {
+          "type": "keyword"
+        },
+        "@timestamp":{
+          "type":"date"
+        }
+      }
+  }
+}

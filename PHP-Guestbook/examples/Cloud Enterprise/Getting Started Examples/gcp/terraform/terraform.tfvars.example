@@ -1,0 +1,7 @@
+# See variables.tf for descriptions
+
+project = "YOUR-CLOUD-PROJECT"
+
+gcp_key_filename = "key-file-name.json"
+
+name = "YOUR-NAME"
